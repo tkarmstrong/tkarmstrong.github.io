@@ -1,0 +1,23 @@
+/*
+============================================
+; Title:  tkarmstrong.github.io styles
+; Author: Tyler K. Armstrong
+; Date:   13 March 2019
+; Description: Styles for portfolio site
+;===========================================
+*/
+
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Fira Sans', sans-serif;
+ */
+
+ .navbar {
+   font-family: 'Roboto Slab', serif;
+   letter-spacing: 2px;
+   font-size: 18px;
+ }
+
+ .navbar-brand {
+  font-weight: 300;
+ }
