@@ -8,4 +8,5 @@
 ;===========================================
 */
 
+// Initialize BaguetteBox
 baguetteBox.run('.compact-gallery', {animation: 'slideIn'});
