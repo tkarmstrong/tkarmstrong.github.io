@@ -50,20 +50,43 @@
 
   <body>
 
-    <div class="container">
-      <div class="embed-responsive embed-responsive-16by9">
-        <!-- Week 1 -->
-        <video controls autoplay reload="none" class="embed-responsive-item" src="https://tkarmstrong.github.io/devops-presentations/valueStream-presentation.mp4" type="video/mp4"></video>
+    <!-- Gallery -->
+    <div class="swiper swiper-overflow py-5">
+        <div class="container position-relative">
+          <div class="swiper-container row" id="slider-gallery">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="col-12">
+                  <!-- Week 1 -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video controls autoplay reload="none" class="embed-responsive-item" src="https://tkarmstrong.github.io/devops-presentations/valueStream-presentation.mp4" type="video/mp4"></video>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="col-12">
+                  <!-- Week 2 -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video controls autoplay reload="none" class="embed-responsive-item" src="https://tkarmstrong.github.io/devops-presentations/2PT-presentation.mp4" type="video/mp4"></video>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="col-12">
+                  <!-- Week 3 -->
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <video controls autoplay reload="none" class="embed-responsive-item" src="https://tkarmstrong.github.io/devops-presentations/testing-presentation.mp4" type="video/mp4"></video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><a class="carousel-control-prev carousel-control-outside" id="slider-gallery-prev" href="">
+            <div class="carousel-control-prev-icon"></div>
+          </a><a class="carousel-control-next carousel-control-outside" id="slider-gallery-next" href="">
+            <div class="carousel-control-next-icon"></div>
+          </a>
+        </div>
       </div>
-      <!-- Week 2 -->
-      <div class="embed-responsive embed-responsive-16by9">
-        <video controls autoplay reload="none" class="embed-responsive-item" src="https://tkarmstrong.github.io/devops-presentations/2PT-presentation.mp4" type="video/mp4"></video>
-      </div>
-      <!-- Week 3 -->
-      <div class="embed-responsive embed-responsive-16by9">
-        <video controls autoplay reload="none" class="embed-responsive-item" src="https://tkarmstrong.github.io/devops-presentations/testing-presentation.mp4" type="video/mp4"></video>
-      </div>
-    </div>
 
     <!-- Bootstrap Scripts (Jquery, Popper, then Bootstrap) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
